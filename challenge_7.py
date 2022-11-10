@@ -1,0 +1,15 @@
+
+
+my_list1 = [1, 2, 3, 4, 5, 6]
+for i in my_list1:
+    if i % 2 == 0:
+        pass
+    else:
+        print(i, end=" ")
+
+
+my_list2 = [4, 2, 9, 91, 19, 401, 0]
+for i in my_list2:
+
+    if i % 2 != 0:
+        print(i, end=" ")
