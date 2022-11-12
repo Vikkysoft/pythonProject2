@@ -8,10 +8,10 @@
 # print("The string is not a palindrome.")
 
 
-def is_palindrome(str1):
-    rev = ''.join(reversed(str1))
+def is_palindrome(str):
+    rev = ''.join(reversed(str))
 
-    if str1 == rev:
+    if str == rev:
         print("The string is palindrome")
     else:
         print("The string is not palindrome")
@@ -19,4 +19,10 @@ def is_palindrome(str1):
 
 str1 = "radar"
 is_palindrome(str1)
+
+str2 = "aibhopohbia"
+is_palindrome(str2)
+
+str3 = "testify"
+is_palindrome(str3)
 
