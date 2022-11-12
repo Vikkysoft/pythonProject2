@@ -1,3 +1,6 @@
-
 def power(x, y):
-    return x ** y
+    result = x ** y
+    return result
+
+
+print(power(2, 3))
