@@ -1,4 +1,4 @@
-# Function that calculate simple interest
+# Writing  a  well-documented  code  creates  a  function  that calculates simple interest
 
 def simple_interest(p, r, t):
     si = p * r * t / 100

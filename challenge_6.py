@@ -1,3 +1,6 @@
+# Write  a  function  that  removes  repeated  characters from a string.
+# Sample Strings are: a. Hello: output shouldbe Helo b. Concatenate: output should be Conaten
+
 from collections import OrderedDict
 
 
